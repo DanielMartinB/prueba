@@ -49,3 +49,30 @@ html, body {
     width: 400px;
     height: 450px;
 }
+
+input[type="radio"] {
+    -webkit-appearance: none;
+}
+
+label {
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+label>span {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label {
+    background-color: red;
+    color: white;
+}
