@@ -32,6 +32,10 @@ html, body {
     color: rgb(189, 187, 187);
 }
 
+.color-grey-dark {
+    color: rgb(146, 146, 146);
+}
+
 .logo {
     width: 45px;
     height: 20px;
@@ -79,4 +83,8 @@ label>span {
 input[type="radio"]:checked + label {
     background-color: red;
     color: white;
+}
+
+i {
+    font-size: 10px;
 }
