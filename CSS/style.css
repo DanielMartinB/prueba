@@ -8,8 +8,16 @@ html, body {
     font-weight: bold;
 }
 
+.size-40 {
+    font-size: 40px;
+}
+
 .size-25 {
     font-size: 25px;
+}
+
+.size-14 {
+    font-size: 14px;
 }
 
 .size-10 {
@@ -20,7 +28,7 @@ html, body {
     background-color: red;
 }
 
-img {
+.logo {
     width: 45px;
     height: 20px;
 }
@@ -35,4 +43,9 @@ img {
 
 .nav-link {
     font-size: 1.1em !important;
+}
+
+.img-lg-size {
+    width: 400px;
+    height: 450px;
 }
