@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.size-25 {
+    font-size: 25px;
+}
+
+.size-10 {
+    font-size: 12px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+img {
+    width: 45px;
+    height: 20px;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
